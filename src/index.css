@@ -5,9 +5,68 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background-image: url(https://w0.peakpx.com/wallpaper/670/340/HD-wallpaper-owl-eye-owls.jpg);
+}
+
+#title {
+  font-size: 7em;
+  color:rgb(134, 4, 4);
+}
+#description {
+  font-style: italic;
+  font-size: 1.5em;
+  color: blue;
+  margin: 1.5em;
+}
+
+#desc-source {
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+#div-input {
+  margin: 2em;
+}
+
+label {
+  font-size: 1.5em;
+  color: rgba(255, 255, 0, 0.486);
+}
+
+input {
+  width: 35em;
+  height: 40px;
+  border-radius: 8px;
+  margin-left: 1em;
+}
+
+#text-result {
+  color: black;
+  font-weight: 700;
+  margin: 1.5em;
+}
+
+#text-options {
+  color: rgb(134, 4, 4);
+  font-size: 1em;
+}
+
+#list {
+  font-size: 1em;
+  font-style: oblique;
 }
